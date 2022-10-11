@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Web Designer | Web Developer | Germany | Sors</title>
+    <link href="./resources/css/index.css" type="text/css" rel="stylesheet">
+    <link href="./index.js" type="text/css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f5620ee636.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+    <!-- Home -->
+
+
+    <header class='Home' id="section-home">
+        <div class="header">
+            <p>WELCOME</p>
+            <p>IT´S ME</p>
+            <p>SORS</p>
+        </div>
+
+        <div id="navbar">
+            <a href="#section-home">Home</a>
+            <a href="#section-about">About</a>
+            <a href="#section-work">Work</a>
+            <a href="#section-skills">Skills</a>
+            <a href="#section-contact">Contact</a>
+        </div>
+
+
+    </header>
+
+
+
+    <!-- About Me -->
+
+    <div class='About' id="section-about">
+
+        <div class="aboutme-header">
+            <h2>About Me</h2>
+            <p> SORS IS NOT MY REAL NAME. IT´S JUST A NICKNAME. I'M A CREATIVE PERSON WHO LOVES USING THE LATEST TECHNOLOGIES TO CREATE UNIQUE WEBSITES AND APPLICATIONS. I AM VERY PASSIONATE ABOUT MY WORK AND A PERFECTIONIST WHO ENJOYS LEARNING NEW SKILLS
+                AND THE CHALLENGES THAT COME ALONG WITH IT.</p>
+
+        </div>
+
+    </div>
+    <!-- My Work -->
+    <div class='Work' id="section-work">
+
+        <div class="work-header">
+            <h2>My Work</h2>
+        </div>
+
+        <div class='work'>
+            <div class='logo-work'>
+                <div class=''>
+                    <img src="./resources/css/images/huma-kabakci-oRk4Ep65tRc-unsplash.jpg">
+                    <h3> ...</h3>
+                </div>
+            </div>
+        </div>
+
+        <div class='work'>
+            <div class='logo-work'>
+                <div class=''>
+                    <img src="./resources/css/images/huma-kabakci-oRk4Ep65tRc-unsplash.jpg">
+                    <h3> ...</h3>
+                </div>
+            </div>
+        </div>
+        <div class='work'>
+            <div class='logo-work'>
+                <div class=''>
+                    <img src="./resources/css/images/huma-kabakci-oRk4Ep65tRc-unsplash.jpg">
+                    <h3> ...</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skills -->
+    <div class='Skills' id="section-skills">
+
+        <div class="skills-header">
+            <h2>Skills</h2>
+        </div>
+
+        <div class='skills'>
+            <div class='logo-skills'>
+                <div class='HTML'>
+                    <img src="resources/css/images/html-5.png">
+                    <h3> HTML 5</h3>
+                </div>
+            </div>
+            <div class='skills'>
+                <div class='logo-skills'>
+                    <div class='CSS'>
+                        <img src="resources/css/images/css.png">
+                        <h3> CSS 3</h3>
+                    </div>
+                </div>
+                <div class='skills'>
+                    <div class='logo-skills'>
+                        <div class='JS'>
+                            <img src="resources/css/images/javascript.png">
+                            <h3> Javascript</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class='skills'>
+                    <div class='logo-skills'>
+                        <div class='GIT'>
+                            <img src="resources/css/images/git.png">
+                            <h3> Git</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class='skills'>
+                    <div class='logo-skills'>
+                        <div class='GITHUB'>
+                            <img src="resources/css/images/github.png">
+                            <h3> Git Hub</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Contact -->
+    <div class='Contact' id="section-contact">
+
+        <div class="contact-header">
+            <h2>Contact</h2>
+        </div>
+
+        <div class="container-contact">
+
+            <div class='container'>
+                <div class='logo-contact'>
+                    <div class='instagram'>
+                        <a href="https://www.instagram.com"><img src="resources/css/images/Icon3.png" alt="instagram"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class='container'>
+                <div class='logo-contact'>
+                    <div class='twitter'>
+                        <a href="https://twitter.com"><img src="resources/css/images/Icon2.png" alt="twitter"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class='container'>
+                <div class='logo-contact'>
+                    <div class='gmail'>
+                        <a href="https://mail.google.com"><img src="resources/css/images/Icon1.png" alt="gmail"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class='container'>
+                <div class='logo-contact'>
+                    <div class='github'>
+                        <a href="https://github.com/sors249700"><img src="resources/css/images/Icon5.png" alt="github"></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class='container'>
+                <div class='logo-contact'>
+                    <div class='linkedin'>
+                        <a href="https://www.linkedin.com"><img src="resources/css/images/Icon6.png" alt="linkedin"></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- Footer2 -->
+    <div class="privacy-policy">
+        <p class="copyright">Sors &copy; 2022</p>
+        <nav>
+            <ul>
+                <li><a href="privacy-policy.html" target="_self">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <script>
+        window.onscroll = function() {
+            myFunction()
+        };
+
+        var navbar = document.getElementById("navbar");
+        var sticky = navbar.offsetTop;
+
+        function myFunction() {
+            if (window.pageYOffset >= sticky) {
+                navbar.classList.add("sticky")
+            } else {
+                navbar.classList.remove("sticky");
+            }
+        }
+    </script>
+</body>
+
+</html>
